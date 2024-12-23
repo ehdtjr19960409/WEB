@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- title -> 윈도우 탭키에서 나오는 구문  -->
+  <title>표 만들기 실습 task01</title>
+</head>
+<body>
+  <!-- body -> 제목  -->
+  <h1>표 만들기 실습!!</h1>
+<!-- a태그 -> strong 사용 -->
+<a>현재 페이지를 <strong>똑같이</strong> 만들기!!</a>
+<!-- 한줄 띄기 -->
+<br></br> 
+<!-- table -> 먼저 생성 -->
+<table border="1" cellspacing ="0" >
+  <!-- 표의 부가 제목 -->
+  <caption>언어의 특징</caption>
+  <!-- 제목으로 구분 지을 때 사용 -->
+   <!-- td -> b를 사용해도 동일하게 글자가 굵게 변경됌  / th를 사용하는 이유 : 일종의 규약이므로 사용해야함-->
+  <thead>
+    <tr style="text-align: center;">
+      <th>언어</th>
+      <th>사용 목적</th>
+      <th>문법</th>
+      <th>특징</th>
+    </tr>
+  </thead>
+  <!-- 테이블 안에 내용물 작성시 사용 -->
+  <tbody>
+    <!-- ※tr -> th를 사용해야함  -->
+    <tr>
+      <td>HTML</td>
+      <td>웹 페이지 구조화</td>
+      <td>태그를 사용하여 요소 정의</td>
+      <td>정적 콘텐츠 표현</td>
+    </tr>
+    <tr>
+      <td>CSS</td>
+      <td>스타일링 및 레이아웃</td>
+      <td>선택자와 선언 블록</td>
+      <td>디자인 및 레이아웃 제어</td>
+    </tr>
+    <tr>
+      <td>JavaScript</td>
+      <td>동적 기능 구현</td>
+      <td>스크립트 언어</td>
+      <td>웹 페이지의 동작과 상호 작용</td>
+    </tr>
+    <tr>
+      <td colspan="4" style="text-align: center;"><em><strong>다른 언어</strong></em>는 어떻게 될까?</td>
+    </tr>
+
+  </tbody>
+
+</table>
+
+</body>
+</html>
