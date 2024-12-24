@@ -1,0 +1,71 @@
+<!-- 11번 : flexbox 과제2-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flexbox</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      
+    }
+  
+    .header{
+
+        height: 150px;
+        background-color: bisque;
+
+    }
+    .section-container{
+      
+      display: flex;
+      flex-direction: row;
+      height: 300px;
+    }
+
+    .aside{
+      background-color: purple;
+      width: 20%;
+    
+    }
+   
+    .section{
+      background-color: brown;
+      width: 60%;
+      
+    }
+
+    .aside1{
+      background-color: blue;
+      width: 20%;
+     
+    }
+
+    .footer{
+
+      height: 150px;
+        background-color: bisque;
+    }
+
+    .main{
+      
+
+    }
+
+</style>
+<body>
+  <!-- div.main-container>div.{}*3 -->
+  <div class="main">
+    <div class="header">header</div>
+    <div class="section-container">
+      <div class="aside">aside</div>
+      <div class="section">section</div>
+      <div class="aside1">aside1</div>
+    </div>
+    <div class="footer">footer</div>
+  </div>
+
+</body>
+</html>
