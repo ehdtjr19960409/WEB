@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flexbox</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .header{
+      background-color: black;
+      height: 50px;
+    }
+    .section-container{
+      height: 500px;
+    }
+    .menu{
+      background-color: blue;
+      height: 35px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      font-weight: bold;
+      color: white;
+    }
+    .menu ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.menu li {
+  padding: 15px;
+}
+    .main{
+      background-color : beige;
+      height: 100%;
+    }
+    .footer{
+      background-color: black;
+      height: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <div class="header"></div>
+    <div class="section-container">
+      <div class="menu">
+       <ul list-style : none;>
+        <li>HOME</li>
+        <li>상품목록</li>
+        <li>상품등록</li>
+        <li>상품주문내역</li>
+        <li>회원정보</li>
+       </ul>
+      </div>
+      <div class="main"></div>
+    </div>
+    <div class="footer"></div>
+  </div>
+</body>
+</html>

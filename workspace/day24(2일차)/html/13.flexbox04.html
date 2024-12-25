@@ -18,20 +18,43 @@
 
     .container-section{
 
-      height: 100%;
+      height: 500px;
       display: flex;
-      flex-direction: column;
+      flex-direction: column;      
     }
     .upmain{
+      
+      padding: 20px;
 
       background-color: darkcyan;
-      padding-left: 20px;
       color: aliceblue;
-  
+      /* border: 1px solid black; */
+
+ 
     }
+    .list{
+      
+      font-weight: bold;
+      display: flex;
+      flex-direction: row;
+      border: 1px solid black;
+      list-style-type: none;
+      
+    }
+    .list li{
+   
+      border: 1px solid black;
+      margin-right: 30px;
+      /* padding-right: 10px; */
+    }
+
+    
+
+
     .downmain{
       height: 500px;
       background-color: bisque;
+      
     }
 
     .footer{
@@ -46,17 +69,27 @@
     <div class="header">header</div>
     <div class="container-section">
       <div class="upmain">
-        <ul style = word-spacing:20px>
-          <strong>
-            <span>HOME</strong></span>
-            <span><strong>상품목록</strong></span>
-            <span><strong>상품등록</strong></span>
-            <span><strong>주문내역</span>
-            <span>회원정보</span>
-          </strong>
+        <ul class="list" >
+          <li >HOME</li>
+          <li >상품목록</li>
+          <li>상품등록</li>
+          <li>주문내역</li>
+          <li >회원정보</li>
         </ul>
+        <!-- <div class="list">HOME</div>
+        <div class="list">상품목록</div>
+        <div class="list">상품등록</div>
+        <div class="list">주문내역</div>
+        <div class="list">회원정보</div> -->
+        
+        <!-- <ul style = word-spacing:20px> -->
+          <!-- <span><strong>HOME</strong></span>
+          <span><strong>상품목록</strong></span>
+            <span><strong>상품등록</strong></span>
+            <span><strong>주문내역</strong></span>
+            <span><strong>회원정보</strong></span> -->
           
-
+        
       </div>
       <div class="downmain"></div>
     </div>
